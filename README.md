@@ -22,7 +22,7 @@ The toy incorporates:
 - **Four 4-bar linkages**: Simulating the motion of the four legs
 - **One slotted link mechanism**: Driving the tail movement
 
-### Mechanism Breakdown:
+#### Mechanism Breakdown:
 - **Mechanism 1**: Two 4-bar linkages (front legs)
 - **Mechanism 2**: Two 4-bar linkages + slotted link (rear legs and tail)
 
@@ -35,12 +35,12 @@ For a detailed breakdown and diagrams, refer to:
 
 All reports and analysis scripts are available in the `Reports/` and `scripts/` folders respectively.
 
-### `KDM_Phase1.pdf`
+#### `KDM_Phase1.pdf`
 - Toy selection rationale
 - Identification of mechanisms
 - Mobility analysis (DOF calculation)
 
-### `KDM_Phase2.pdf`
+#### `KDM_Phase2.pdf`
 - Detailed segmentation of mechanisms
 - Loop-closure equations
 - Displacement, velocity, and acceleration analysis using **Python**
@@ -48,7 +48,7 @@ All reports and analysis scripts are available in the `Reports/` and `scripts/` 
   - `toy_mechanism1.ipynb`
   - `toy_mechanism2.ipynb`
 
-### `KDM_Phase3.pdf`
+#### `KDM_Phase3.pdf`
 - CAD modeling in **SolidWorks**
 - Simulation in **Adams**
 - Motion plots and comparisons with analytical results from Phase 2
@@ -76,16 +76,17 @@ The analytical and simulation-based motion studies showed strong agreement, vali
 ├── toy_mechanism1.ipynb
 ├── toy_mechanism2.ipynb
 └── README.md
+└── LICENSE
 ```
 
 ---
 
 ## Tools & Libraries Used
 
-### Phase 2 (Analytical):
+#### Phase 2 (Analytical):
 - **Python Libraries**: `NumPy`, `SciPy`, `Matplotlib`
 
-### Phase 3 (Simulation):
+#### Phase 3 (Simulation):
 - **CAD Modeling**: SolidWorks
 - **Motion Simulation**: MSC Adams
 
